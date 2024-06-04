@@ -1,0 +1,778 @@
+@import url(_resetsass.sass);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  height: 24px;
+  margin-left: 32px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+}
+
+.logo p {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -3%;
+  width: 213px;
+}
+
+.logo img {
+  margin-left: -15px;
+  width: 24px;
+  height: 24px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin-left: 286px;
+}
+
+.first-list {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -2%;
+  text-align: left;
+  text-decoration: none;
+  width: 124px;
+}
+
+.networks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin-left: 227px;
+}
+
+.networks img {
+  margin-right: 21px;
+  width: 20px;
+  height: 20px;
+}
+
+.cardheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.4) 100%), url(./img/startpage.png) center 0px;
+  margin-left: 232px;
+  width: 1100px;
+  height: 600px;
+  margin-top: 32px;
+  border-radius: 30px;
+}
+
+.linehdrcard {
+  width: 1100px;
+  height: 119px;
+  background: rgb(217, 217, 217);
+  margin-top: 208px;
+}
+
+.texthdrcard {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 28px;
+  width: 484px;
+  height: 102px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -3%;
+  text-align: left;
+  margin-top: 54px;
+  margin-left: 40px;
+}
+
+.buttonshdrcard {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-top: 32px;
+}
+
+.hdrbuttonone {
+  border-radius: 100px;
+  width: 144px;
+  height: 45px;
+  background: rgb(253, 146, 34);
+  color: white;
+}
+
+.hdrbuttontwo {
+  width: 183px;
+  height: 45px;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  margin-left: 14px;
+}
+
+.thirdhdrbutton {
+  display: flex;
+  flex-direction: row;
+  margin-left: 555px;
+}
+
+.thrdhdrtxt {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -3%;
+  text-align: left;
+}
+
+.hdrbuttonthird {
+  width: 38px;
+  height: 38px;
+  margin-left: 10px;
+}
+
+.cardmainone {
+  display: flex;
+  flex-direction: row;
+  width: 1543px;
+  margin-left: -32px;
+  margin-right: -8px;
+  margin-top: 72px;
+  background: rgb(30, 24, 35);
+  height: 344px;
+}
+
+.mainonebox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 82px;
+}
+
+.oneboximg {
+  width: 62px;
+  height: 62px;
+}
+
+.textonebox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+}
+
+.maintxtonebox {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 173px;
+  height: 22px;
+}
+
+.txtonebox {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: -2%;
+  text-align: left;
+  width: 308px;
+  height: 102px;
+}
+
+.lineonebox {
+  height: 124px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-top: 115px;
+  margin-left: 60px;
+}
+
+.maintwobox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 154px;
+}
+
+.mainthirdbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 154px;
+}
+
+.linetwobox {
+  height: 124px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-top: 115px;
+  margin-left: 60px;
+}
+
+.cardmaintwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 128px;
+  margin-left: -10px;
+}
+
+.twotextcardone {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -3%;
+  text-align: center;
+  width: 611px;
+  height: 56px;
+}
+
+.twotextcardone span {
+  color: rgb(253, 146, 34);
+}
+
+.twotextcardtwo {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-top: 38px;
+  width: 486px;
+  height: 72px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.cardsproducttwo {
+  margin-top: 50px;
+  margin-left: 32px;
+}
+
+.productoneflip {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 61px;
+  perspective: 1000px;
+  width: 270px;
+  height: 270px;
+}
+
+.prdctoneflip-inner {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  transform-style: preserve-3d;
+  border-radius: 90px 10px;
+}
+
+.prdctonefront, .prdctoneback {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  backface-visibility: hidden;
+}
+
+.prdctonefront {
+  border-radius: 15px;
+  background: rgb(253, 146, 34);
+}
+
+.prdctoneback {
+  border-radius: 15px;
+  background: white;
+  transform: rotatey(180deg);
+  border: 1px solid orange;
+}
+
+.prdctonefront h1 {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  width: 128px;
+  height: 18px;
+  letter-spacing: -2%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-left: -90px;
+}
+
+.productoneflip:hover .prdctoneflip-inner {
+  transform: rotatey(180deg);
+}
+
+.prdctoneback h1 {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -3%;
+  width: 163px;
+  height: 22px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: -50px;
+}
+
+.backbuttonsone {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: -30px;
+}
+
+.backbuttonsone .firstback {
+  border-radius: 35px;
+  width: 81px;
+  height: 24px;
+  background: rgb(253, 146, 34);
+  border: none;
+  color: white;
+}
+
+.backbuttonsone .secback {
+  width: 93px;
+  height: 24px;
+  color: black;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(253, 146, 34);
+  border-radius: 35px;
+  margin-left: 14px;
+}
+
+.backfirsttxt {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -2%;
+  text-align: left;
+  width: 214px;
+  height: 146px;
+}
+
+.producttwoflip {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 61px;
+  perspective: 1000px;
+  width: 270px;
+  height: 270px;
+  margin-left: 25px;
+}
+
+.prdcttwoflip-inner {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  transform-style: preserve-3d;
+  border-radius: 90px 10px;
+}
+
+.prdcttwofront, .prdcttwoback {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  backface-visibility: hidden;
+}
+
+.prdcttwofront {
+  border-radius: 15px;
+  background: white;
+  border: 1px solid orange;
+}
+
+.prdcttwoback {
+  border-radius: 15px;
+  background: white;
+  transform: rotatey(180deg);
+  border: 1px solid orange;
+}
+
+.prdcttwofront h1 {
+  color: black;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  width: 128px;
+  height: 18px;
+  letter-spacing: -2%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-left: -90px;
+}
+
+.producttwoflip:hover .prdcttwoflip-inner {
+  transform: rotatey(180deg);
+}
+
+.prdcttwoback h1 {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -3%;
+  width: 163px;
+  height: 22px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: -50px;
+}
+
+.backbuttonstwo {
+  display: flex;
+  flex-direction: row;
+  margin-top: -5px;
+  margin-left: -30px;
+}
+
+.backbuttonstwo .firstbacktwo {
+  border-radius: 35px;
+  width: 81px;
+  height: 24px;
+  background: rgb(253, 146, 34);
+  border: none;
+  color: white;
+}
+
+.backbuttonstwo .secbacktwo {
+  width: 93px;
+  height: 24px;
+  color: black;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(253, 146, 34);
+  border-radius: 35px;
+  margin-left: 14px;
+}
+
+.backsectxt {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -2%;
+  text-align: left;
+  width: 214px;
+  height: 146px;
+}
+
+.productthirdflip {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 61px;
+  perspective: 1000px;
+  width: 270px;
+  height: 270px;
+  margin-left: 25px;
+}
+
+.prdctthirdflip-inner {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  transform-style: preserve-3d;
+  border-radius: 90px 10px;
+}
+
+.prdctthirdfront, .prdctthirdback {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  backface-visibility: hidden;
+}
+
+.prdctthirdfront {
+  border-radius: 15px;
+  background: rgb(30, 24, 35);
+}
+
+.prdctthirdback {
+  border-radius: 15px;
+  background: white;
+  transform: rotatey(180deg);
+  border: 1px solid orange;
+}
+
+.prdctthirdfront h1 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  width: 128px;
+  height: 18px;
+  letter-spacing: -2%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-left: -90px;
+}
+
+.productthirdflip:hover .prdctthirdflip-inner {
+  transform: rotatey(180deg);
+}
+
+.prdctthirdback h1 {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -3%;
+  width: 163px;
+  height: 22px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: -50px;
+}
+
+.backbuttonsthird {
+  display: flex;
+  flex-direction: row;
+  margin-top: -5px;
+  margin-left: -30px;
+}
+
+.backbuttonsthird .firstbackthird {
+  border-radius: 35px;
+  width: 81px;
+  height: 24px;
+  background: rgb(253, 146, 34);
+  border: none;
+  color: white;
+}
+
+.backbuttonsthird .secbackthird {
+  width: 93px;
+  height: 24px;
+  color: black;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(253, 146, 34);
+  border-radius: 35px;
+  margin-left: 14px;
+}
+
+.backthirdtxt {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -2%;
+  text-align: left;
+  width: 214px;
+  height: 146px;
+}
+
+.productfourflip {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 61px;
+  perspective: 1000px;
+  width: 270px;
+  height: 270px;
+  margin-left: 25px;
+}
+
+.prdctfourflip-inner {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  transform-style: preserve-3d;
+  border-radius: 90px 10px;
+}
+
+.prdctfourfront, .prdctfourback {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  backface-visibility: hidden;
+}
+
+.prdctfourfront {
+  border-radius: 15px;
+  background: white;
+  border: 1px solid orange;
+}
+
+.prdctfourback {
+  border-radius: 15px;
+  background: white;
+  transform: rotatey(180deg);
+  border: 1px solid orange;
+}
+
+.prdctfourfront h1 {
+  color: black;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  width: 128px;
+  height: 18px;
+  letter-spacing: -2%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: -90px;
+}
+
+.productfourflip:hover .prdctfourflip-inner {
+  transform: rotatey(180deg);
+}
+
+.prdctfourback h1 {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -3%;
+  width: 214px;
+  height: 44px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.backbuttonsfour {
+  display: flex;
+  flex-direction: row;
+  margin-top: -5px;
+  margin-left: -10px;
+  margin-bottom: 5px;
+}
+
+.backbuttonsfour .firstbackfour {
+  border-radius: 35px;
+  width: 114px;
+  height: 24px;
+  background: rgb(253, 146, 34);
+  border: none;
+  color: white;
+}
+
+.backbuttonsfour .secbackfour {
+  width: 93px;
+  height: 24px;
+  color: black;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(253, 146, 34);
+  border-radius: 35px;
+  margin-left: 14px;
+}
+
+.backfourtxt {
+  color: rgb(17, 17, 17);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -2%;
+  text-align: left;
+  width: 214px;
+  height: 146px;
+}
+
+.cardmainthird {
+  margin-top: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtthirdmain {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -3%;
+  text-align: center;
+  text-transform: uppercase;
+  width: 205px;
+  height: 28px;
+  text-align: center;
+}
+
+h1 span {
+  color: rgb(253, 146, 34);
+}
+
+.boxthird {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1136px;
+  height: 400px;
+}
+
+.boxthird img {
+  width: 600px;
+  height: 400px;
+}/*# sourceMappingURL=style.css.map */
